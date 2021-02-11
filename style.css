@@ -8,6 +8,10 @@
   margin-left: 5%;
 }
 
+.navbar-light .navbar-brand {
+  color:white;
+}
+
 .navbar-toggler {
   background-color: white;
 }
@@ -19,7 +23,7 @@
 
   }
   
-  .summary_container {
+.summary_container {
     color:rgb(89, 168, 144);
     position:relative;
     margin-top: 10px ;
@@ -29,7 +33,7 @@
     background:white;
   }
 
-  .visualization_container {
+.visualization_container {
     color:rgb(89, 168, 144);
     position:relative;
     margin-top: 10px ;
@@ -48,7 +52,16 @@ p {
     color:black;
 }
 
+.center {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(91, 192, 222);
+  text-align: center;
+}
+
 .text-left {
+  text-align: left;
   color:rgb(91, 192, 222);
   font-family: 'Times New Roman', Times, serif;
   font-size: 45px;
@@ -56,7 +69,28 @@ p {
   padding: 10px;
 }
 
+.text-left-2 {
+  text-align: left;
+  color:rgb(91, 192, 222);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding: 20px;
   
+}
+
+.paragraph-text {
+  padding:20px;
+  text-indent:40px
+}
+
+.thumbnail {
+  width:50%;
+}
+
+.thumbnail2 {
+  width:90%;
+}
+
 
 .form-inline>.dropdown{display:inline-block;position:absolute;right:32%;top:40%}
 .form-inline>form>.MyButton1{position:absolute;right:15%;display:inline-block;}
